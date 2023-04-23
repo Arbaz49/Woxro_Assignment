@@ -1,0 +1,66 @@
+.serviceList-mainContainer {
+    padding: 3rem;
+    background-color: var(--white);
+}
+.service-cont {
+    background-color: var(--white);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 2rem;
+    padding-bottom: 6rem;
+}
+
+.link-secret {
+    color: inherit !important;
+    text-decoration: none;
+}
+.imgStyle {
+    height: 3rem;
+    width: 3rem;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+    padding: 0.5rem;
+}
+.services-head {
+    font-size: 1.27rem;
+    font-weight: bold;
+    color: var(--black);
+    margin-bottom: 0.5rem;
+}
+.cut-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: auto;
+    color: var(--black);
+    font-size: var(--sl);
+}
+center {
+    display: block;
+    text-align: -webkit-center;
+}
+
+element.style {
+}
+.serviceList-head {
+    font-size: 2rem;
+    line-height: 1.5;
+    letter-spacing: 0.06rem;
+}
+.serviceList-head {
+    font-size: 2rem;
+    line-height: 1.5;
+    letter-spacing: 0.06rem;
+}
+.card-cont {
+    border: thin var(--grey);
+    border-radius: 5px;
+    width: auto;
+    height: 15rem;
+    margin: 0.5rem;
+    padding: 1rem;
+    transition: 0.3s;
+}
